@@ -1,0 +1,30 @@
+/*ESTILOS GLOBALES*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Didact Gothic', sans-serif !important;
+	background: #FC466B;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-position: center !important;
+	color: #282825;
+	overflow-x: hidden;
+}
+
+.form-control {
+	border-radius: 100px !important;
+}
+
+a > p {
+	color: #0E0835;
+}
+
+.btnCustomized {
+	border-radius: 100px;
+	background-color: #3F5EFB;
+	border: 0px solid !important;
+	width: 100px;
+	height: 40px;
+	color: #FFF;
+}
